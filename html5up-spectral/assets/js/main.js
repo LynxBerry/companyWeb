@@ -95,6 +95,27 @@
 
 			}
 
+			//stevenshao
+			$("#switch").click(function() {
+				//console.log("abc",$("#switch").text());
+				if ($("#switch").text() === "English") {
+					$("#switch").text("中文");
+					$("#banner h2").text(function() {
+						return "ZhiHu APP";
+					});
+					$("#banner p").html('<p>Put ZhiHu App into your pocket<br />Sharing your knowledge, experience and opinion with the world.<br />Created By <a href="http://html5up.net">James Chen</a>.</p>');
+
+
+
+				} else {
+					$("#switch").text("English");
+					$("#banner h2").text(function() {
+						return "知乎 APP";
+					});
+					$("#banner p").html('<p>把知乎放进口袋<br />					与世界分享你的知识、经验、见解<br />					创作由 <a href="http://html5up.net">詹姆士陈</a>.</p>');
+				}
+
+			});
 	});
 
 })(jQuery);

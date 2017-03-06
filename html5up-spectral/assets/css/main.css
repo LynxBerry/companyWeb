@@ -2527,7 +2527,12 @@
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			color: black;
+			background-color: #e0e0e0;
+		}
+
+		.spotlight:nth-child(1) h2 {
+			color: black;
 		}
 
 		.spotlight:nth-child(2) {
